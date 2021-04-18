@@ -1,104 +1,60 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <style>
-            nav{
+        <style>        
+            nav {
                 max-width: 650px;
                 text-align: center;
+                font-size: 1.5em;
+                margin: 0.2em auto 0.1em auto;
+                color: rgb(255, 255, 255);
+                padding-top: 0.2em;
+                padding-bottom: 0.3em;
+                background-image: linear-gradient(rgb(205, 200, 200), rgb(101, 101, 101), rgb(192, 192, 192));
+                border-radius: 5px;
+            }
+            nav a:link, a:visited {
+                border-radius: 5px;
+                background-image: linear-gradient(rgb(112, 112, 232), rgb(38, 38, 176));
+                text-decoration: none;
+                padding: 0.1em 0.5em 0.2em 0.5em;
+                color: rgb(255, 255, 255);
+                text-shadow: 2px 2px 3px rgb(0, 255, 0);
+            }
+            nav a:hover {
+                color: rgb(255, 147, 108);
+                text-shadow: 1px 1px 2px rgb(193, 246, 255);
+                background-image: linear-gradient( rgb(38, 38, 176), rgb(112, 112, 232));
             }
             table {
-                border: 1pc solid #68ccab;
+                border: 1px solid #0000ff;
                 border-collapse: collapse;
                 width: 600px;
-                text-align: center; 
-                margin: 2e auto 0e auto;
+                text-align: center;
+                margin: 2em auto 0em auto;
             }
             th, td {
-                border: 1px solid #62776d; 
-                border-collapse:  collapse;
-            } 
+                border: 1px solid #0000ff;
+                border-collapse: collapse;  /* test  test */
+            }
         </style>
-    
     </head>
-    <body style = "background-color: rgb(131, 248, 232) ; ">
-       <h1 style="text-align: center;"> 林宜孜<span style="color: sienna;">109021068<span style="color: rgb(0, 17, 255);">資工系</span></span></h1>
-       <h1 style="text-align: center;"> <span style="color: azure;">跆拳道</span></h1>
-       <center>
-       <table>
-        <tr>
-            <th>時間</th>
-            <th>星期一</th>
-            <th>星期二</th>
-            <th>星期三</th>
-            <th>星期四</th> 
-            <th>星期五</th>
-        </tr>
-        <tr>
-            <td>08:10~09:00</td>
-            <td rowspan=2 style="background-image:linear-gradient(rgb(120,120,220), rgb(80, 80, 180)); color : white;">文學與生活</td>
-            <td rowspan=2 style="background-image:linear-gradient(rgb(120,120,220), rgb(80, 80, 180)); color : white;">全民國防</td>
-            <td></td>
-            <td rowspan=2 style="background-image:linear-gradient(rgb(120,120,220), rgb(80, 80, 180)); color : white;"></td>
-            <td rowspan=2 style="background-image:linear-gradient(rgb(120,120,220), rgb(80, 80, 180)); color : white;">英文</td>
-        </tr>
-        <tr>
-            <td>09:10~10:00</td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>10:10~11:00</td>
-            <td></td>
-            <td rowspan=2 style="background-image:linear-gradient(rgb(120,120,220), rgb(80, 80, 180)); color : white;">離散數學</td>
-            <td></td>
-            <td rowspan=2 style="background-image:linear-gradient(rgb(120,120,220), rgb(80, 80, 180)); color : white;">健康與生活</td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>11:10~12:00</td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>12:10~13:00</td>
-            <td colspan=5></td>
-        </tr>
-        <tr>
-            <td>13:10~14:00</td>
-            <td rowspan=2 style="background-image:linear-gradient(rgb(120,120,220), rgb(80, 80, 180)); color : white;">歷史</td>
-            <td style="background-image:linear-gradient(rgb(120,120,220), rgb(80, 80, 180)); color : white;">英文</td>
-            <td style="background-image:linear-gradient(rgb(120,120,220), rgb(80, 80, 180)); color : white;">線性代數</td>
-            <td></td>
-            <td rowspan=3 style="background-image:linear-gradient(rgb(120,120,220), rgb(80, 80, 180)); color : white;">進階程式設計</td>
-        </tr>
-        <tr>
-            <td>14:10~15:00</td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>15:10~16:00</td>
-            <td></td>
-            <td rowspan=2 style="background-image:linear-gradient(rgb(120,120,220), rgb(80, 80, 180)); color : white;">線性代數</td>
-            <td style="background-image:linear-gradient(rgb(120,120,220), rgb(80, 80, 180)); color : white;">學輔時間</td>
-            <td rowspan=2 style="background-image:linear-gradient(rgb(120,120,220), rgb(80, 80, 180)); color : white;">體育</td>
-        </tr>
-        <tr>
-            <td>16:10~17:00</td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>17:10~17:40</td>
-            <td style="background-image:linear-gradient(rgb(120,120,220), rgb(80, 80, 180)); color : white;">服務與學習</td>
-            <td style="background-image:linear-gradient(rgb(120,120,220), rgb(80, 80, 180)); color : white;">服務與學習</td>
-            <td style="background-image:linear-gradient(rgb(120,120,220), rgb(80, 80, 180)); color : white;">服務與學習</td>
-            <td></td>
-            <td></td>
-        </tr>
-        </table>
-        </center>
+
+    <body background="images/M6.jpg" width="100%"  height="100%">
+
+        <div id="header">
+            <div id="logo">
+                <h1><span style="color: rgb(137, 43, 224);">About me</span></h1>
+            </div>
+
+            <div id ="menu">
+                <ul>
+                    <li class="active"><a href="index.html">首頁</a></li>
+                    <li><a href="index.html">自我介紹</a></li>
+                    <li><a href="class.html">課表</a></li>
+                    <li><a href="public.html">教授著作</a></li>
+                </ul>
+            </div>
+        </div>
     </body>
 </html>
